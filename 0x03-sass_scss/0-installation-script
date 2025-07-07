@@ -1,0 +1,21 @@
+Steps I took to install SASS
+
+1. Installed node version 20.16 in my ubuntu terminal
+
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+2. Installed SASS in my terminal, using:
+
+npm install sass -v 3.7.4 OR  npm install -g sass
+
+3. Verified SASS Installation
+
+sass --version
+
+4. I created a .scss file and compiled it using:
+
+sass 0-debug_log.scss style.css
+
+5. To automatically update the CSS file whenever I saved changes, I ran:
+
+sass --watch style.scss:style.css
